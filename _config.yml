@@ -1,1 +1,41 @@
-theme: jekyll-theme-minimal
+title: Secops.Blog
+description: Defansif Siber Güvenlik Üzerine...
+author: Secops.blog
+logo: /static/img/logo.png
+github: https://github.com/secopsblog
+about: Samet Sazak Kişisel Blog
+avatar_url: /static/img/avatar.jpg
+
+baseurl: "http://secops.blog"
+url: "http://secops.blog"
+
+urls:
+    - text: About
+      url: /about/
+    - text: Wiki
+      url: /wiki
+    - text: SOME
+      url: /some
+    - text: Red Teaming
+      url: /redteam
+    - text: Linux
+      url: /linux
+    - text: Network
+      url: /network
+
+disqus_shortname: secopsblog
+google_analytics: UA-98695657-1
+
+share:
+  twitter_username: secopsblog
+#  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 4
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
